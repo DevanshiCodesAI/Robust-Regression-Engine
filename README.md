@@ -294,11 +294,7 @@ All models below are evaluated on the same held-out test split. **Lower MAE/RMSE
 
 ## Chart gallery — directly from the notebook
 
-These charts are extracted from the saved outputs in `Robust_Reression_Engine.ipynb`; they are not decorative redraws. If the notebook is rerun and its charts change, refresh them with:
-
-```bash
-python scripts/extract_notebook_charts.py
-```
+These charts are extracted from the saved outputs in `Robust_Reression_Engine.ipynb`.
 
 ### 1) What did the Random Forest rely on most?
 
