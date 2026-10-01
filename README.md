@@ -398,7 +398,7 @@ sequenceDiagram
 
 ## Validation and quality pipeline
 
-The repository includes a lightweight GitHub Actions workflow at [`.github/workflows/project-checks.yml`](./.github/workflows/project-checks.yml). It runs on pushes, pull requests, and manual dispatches.
+
 
 ```mermaid
 flowchart LR
