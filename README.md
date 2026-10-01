@@ -8,6 +8,9 @@
   <a href="./Robust_Reression_Engine.ipynb"><img src="https://img.shields.io/badge/Explore-Notebook-1F5F99?style=for-the-badge&logo=jupyter&logoColor=white" alt="Explore the notebook"></a>
   <a href="https://colab.research.google.com/github/DevanshiCodesAI/Robust-Regression-Engine/blob/main/Robust_Reression_Engine.ipynb"><img src="https://img.shields.io/badge/Open_in-Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Open notebook in Google Colab"></a>
   <a href="./Robust_Regression_Theory_Guide.pdf"><img src="https://img.shields.io/badge/Read-Theory_Guide-137C8B?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Read the theory guide"></a>
+  <a href="https://drive.google.com/file/d/1v-XouH6hSA0fQtytlmtCp5nMm50_GGXF/view?usp=sharing">
+    <img src="https://img.shields.io/badge/Watch-Demo_Video-EA4335?style=for-the-badge&logo=googledolor=white
+  </a>
 </p>
 
 <p>
