@@ -19,6 +19,11 @@ GIFS = [
     ROOT / "assets" / "robust-regression-pipeline.gif",
     ROOT / "assets" / "model-comparison.gif",
 ]
+NOTEBOOK_CHARTS = [
+    ROOT / "assets" / "notebook_feature_importance.png",
+    ROOT / "assets" / "notebook_ridge_lasso_coefficients.png",
+    ROOT / "assets" / "notebook_actual_vs_predicted.png",
+]
 EXPECTED_COLUMNS = [
     "property_id",
     "sale_date",
@@ -65,6 +70,9 @@ def main() -> None:
         "Robust Regression Engine",
         "assets/robust-regression-pipeline.gif",
         "assets/model-comparison.gif",
+        "assets/notebook_feature_importance.png",
+        "assets/notebook_ridge_lasso_coefficients.png",
+        "assets/notebook_actual_vs_predicted.png",
         "Robust_Regression_Theory_Guide.pdf",
     ):
         check(fragment in readme, f"README references {fragment}")
@@ -72,6 +80,8 @@ def main() -> None:
     check(PDF.read_bytes().startswith(b"%PDF-"), "Theory guide is a valid PDF file")
     for gif in GIFS:
         check(gif.read_bytes().startswith(b"GIF8"), f"{gif.name} is a valid GIF file")
+    for chart in NOTEBOOK_CHARTS:
+        check(chart.read_bytes().startswith(b"\x89PNG\r\n\x1a\n"), f"{chart.name} is a valid PNG chart")
 
     print("\nAll project integrity checks passed.")
 
